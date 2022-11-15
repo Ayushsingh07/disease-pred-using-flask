@@ -1,3 +1,4 @@
+import os
 from flask import Flask,jsonify,request
 from prediction import NaiveBayes
 
@@ -21,4 +22,5 @@ def hello_world():
 
 if __name__ == '__main__':
     
-    app.run(threaded=True, port=5000)
+    port = int(os.environ.get("PORT", 17995))
+    app.run(host='0.0.0.0', port=port)
