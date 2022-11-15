@@ -3,7 +3,7 @@ from prediction import NaiveBayes
 
 
 app = Flask(__name__)
-@app.route('/pre',methods=['GET','POST'])
+@app.route('/pre',methods=['POST'])
 def pre():
     data=request.get_json()
     diseass=list(data.values())
