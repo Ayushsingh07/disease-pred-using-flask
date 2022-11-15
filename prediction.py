@@ -15,7 +15,7 @@ l1=['back_pain','constipation','abdominal_pain','diarrhoea','mild_fever','yellow
 'movement_stiffness','spinning_movements','loss_of_balance','unsteadiness',
 'weakness_of_one_body_side','loss_of_smell','bladder_discomfort','foul_smell_of urine',
 'continuous_feel_of_urine','passage_of_gases','internal_itching','toxic_look_(typhos)',
-'depression','irritability','muscle_pain','altered_sensorium','red_spots_over_body','belly_pain',
+'depression','irritability','C','altered_sensorium','red_spots_over_body','belly_pain',
 'abnormal_menstruation','dischromic _patches','watering_from_eyes','increased_appetite','polyuria','family_history','mucoid_sputum',
 'rusty_sputum','lack_of_concentration','visual_disturbances','receiving_blood_transfusion',
 'receiving_unsterile_injections','coma','stomach_bleeding','distention_of_abdomen',
