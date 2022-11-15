@@ -1,6 +1,6 @@
 from flask import Flask,jsonify,request
 from prediction import NaiveBayes
-import sum
+
 
 app = Flask(__name__)
 @app.route('/pre')
