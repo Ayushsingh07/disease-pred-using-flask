@@ -3,7 +3,7 @@ from prediction import NaiveBayes
 
 
 app = Flask(__name__)
-@app.route('/pre')
+@app.route('/pre',methods=['GET','POST'])
 def pre():
     data=request.get_json()
     diseass=list(data.values())
@@ -18,3 +18,7 @@ def pre():
 @app.route('/')
 def hello_world():
     return 'Hello, 1World!'
+
+if __name__ == '__main__':
+    
+    app.run(threaded=True, port=5000)
